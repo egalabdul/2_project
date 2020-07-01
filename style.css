@@ -1,0 +1,331 @@
+
+/** Mobile layout single column design**/
+
+.container{
+  text-align: center;
+
+}
+
+ h1{
+  color:#289992;
+  font-size:45px;
+  padding-left: 45px;
+}
+
+.main-nav a{
+  color:#4cd2ca;
+  font-size:25px;
+  font-weight: bold;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+}
+
+a:hover{
+  color:black;
+}
+
+.header-section{
+  background-color: #ece9e9;
+  padding: 15px;
+
+}
+
+.header-paragraph{
+  width: 100%;
+  margin: 33px auto;
+  font-size: 20px;
+  color:#3a3939;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.header-img{
+  width:75%;
+}
+  .img-portfolio-section{
+    width:300px;
+
+  }
+
+hr{
+  width: 45%;
+  color:orange;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.card-section{
+  margin-bottom: 80px;
+  font-family: 'Noto Sans', sans-serif;
+  color:#6c6b6b;
+}
+
+h3{
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: overline;
+
+}
+h2{
+  color:black;
+}
+
+h5{
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 45px;
+
+}
+.contact, span{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contact:hover{
+  color:#440a97;
+}
+footer{
+  color:black;
+  background-color: #ece9e9;
+  padding: 15px;
+  margin-bottom: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+.footer-bottom ul{
+  display:none;
+}
+
+#back{
+  text-decoration: none;
+  color:black;
+}
+#back:hover{
+  color:#440a97;
+}
+
+/**Media Query for tablet devices**/
+
+@media (min-width:768px) and (max-width:1050px) {
+  .main-nav a{
+    color:#4cd2ca;
+    display: inline-block;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border:none;
+
+  }
+
+  .header-section{
+    height: 300px;
+  }
+  a:hover{
+    color:black;
+  }
+.header-img{
+  float:right;
+  width:350px;
+  padding-top: 45px;
+  padding-left: 10px;
+}
+
+.header-paragraph{
+  font-size:20px;
+  text-align: left;
+  padding-top: 60px;
+
+}
+h3{
+  text-decoration: overline;
+}
+
+.card-section p{
+  padding-left: 15px;
+
+}
+
+.portfolio-1{
+  float:left;
+  width:50%;
+}
+.portfolio-2{
+  float:right;
+  width:50%;
+}
+.portfolio-3{
+  float:left;
+  width: 50%;
+}
+.portfolio-4{
+  float:left;
+  width:50%;
+}
+.portfolio-5{
+  float:left;
+  width: 50%;
+}
+.portfolio-6{
+  float:right;
+  width:50%;
+}
+
+footer{
+  margin-top: 1000px;
+}
+footer p{
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.footer-bottom #back-to{
+  display:none;
+}
+.footer-bottom ul{
+  margin-left: 80px;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer-bottom a{
+  color:black;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer-bottom a:hover{
+  color:purple;
+}
+#contact{
+    width: 45%;
+    color:orange;
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+}
+@media (min-width:951px){
+
+  .main-nav a{
+    color:#4cd2ca;
+    display: inline-block;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    border:none;
+    padding-bottom: 15px;
+  }
+
+  .wrapper{
+    float:right;
+    padding-right: 100px;
+    margin-top: -100px;
+  }
+  #top{
+    padding-left: 100px;
+    float:left;
+    margin-top: -100px;
+  }
+
+  .header-section{
+    height: 300px;
+    margin-top: 100px;
+  }
+  a:hover{
+    color:black;
+    text-decoration: overline;
+  }
+.header-img{
+  float:right;
+  width:350px;
+  padding-top: 45px;
+  padding-left: 10px;
+}
+
+.header-paragraph{
+  font-size:20px;
+  text-align: left;
+  padding-top: 60px;
+
+}
+  .card-section p{
+    padding-left: 15px;
+
+  }
+
+  .portfolio-1{
+    float:left;
+    width:33%;
+  }
+  .portfolio-2{
+    float:right;
+    width:33%;
+  }
+  .portfolio-3{
+    float:left;
+    width: 33%;
+  }
+  .portfolio-4{
+    float:left;
+    width:33%;
+  }
+  .portfolio-5{
+    float:left;
+    width: 33%;
+  }
+  .portfolio-6{
+    float:right;
+    width:33%;
+  }
+
+  h3{
+    text-decoration: overline;
+  }
+
+
+  footer{
+    margin-top: 750px;
+  }
+  footer p{
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .footer-bottom #back-to{
+    display:none;
+  }
+  .footer-bottom ul{
+    padding-left: 780px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .footer-bottom a{
+    color:black;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .footer-bottom a:hover{
+    color:purple;
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
