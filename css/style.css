@@ -3,7 +3,8 @@
 
 .container{
   text-align: center;
-
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 5px;
 }
 
  h1{
@@ -108,7 +109,7 @@ footer{
 
 /**Media Query for tablet devices**/
 
-@media (min-width:768px) and (max-width:1050px) {
+@media (min-width:768px) {
   .main-nav a{
     color:#4cd2ca;
     display: inline-block;
@@ -215,7 +216,9 @@ footer p{
 }
 
 }
-@media (min-width:951px){
+@media (min-width:1024px){
+
+  
 
   .main-nav a{
     color:#4cd2ca;
@@ -233,6 +236,10 @@ footer p{
     float:right;
     padding-right: 100px;
     margin-top: -100px;
+  }
+  li{
+    display: inline-block;
+
   }
   #top{
     padding-left: 100px;
